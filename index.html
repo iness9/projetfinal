@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sup2Voyage</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    </head>
+
+
+    <body>
+        <header>
+            <img src="images/sup2-removebg-preview(1).png" alt="logo" weight="120" height="120">
+            <nav>
+                <ul>
+                    <li><a href="vol.html" id="Vol">Vol</a></li>
+                    <li><a id="Hotel">Hotel</a></li>
+                    <li><a href="bonplan.html" id="Bonplan">Bon plan</a>
+                    <li>
+                </ul>
+            </nav>
+
+            <div class="recherhce">
+                <input type="text" placeholder="Rechercher">
+
+            </div>
+
+            <div class="connexion">
+                <li><a href="contact.html" id="Contact">S'inscrire/Se connecter</a></li>
+            </div class="connexion">
+        </header>
+
+
+        <main>
+            <div class="container">
+                <div class="input-box">
+                    <label for="depart">Départ:</label>
+                    <input type="date" id="depart">
+                </div>
+                <div class="input-box">
+                    <label for="arrivee">Arrivée:</label>
+                    <input type="date" id="arrivee">
+                </div>
+                <div class="input-box">
+                    <label for="voyageurs">Voyageurs:</label>
+                    <input type="number" id="voyageurs" min="1" max="10">
+                </div>
+            </div>
+
+
+
+
+            <h2>Nos offres du moment</h2>
+            <!-- debut section offre -->
+
+            <section idoffers>
+                <div class="offers">
+                    <div class="offer">
+                        <img src="images/hotel-7885138_1280.jpg" alt="turquie" id="turquie">
+                        <p>Turquie - 540€</p>
+                    </div>
+                    <div class="offer">
+                        <img src="images/chambrehotel.jpg" alt="Hotel" id="hotel" href="hotel.html">
+                        <p>Londres - 390€</p>
+                    </div>
+                    <div class="offer">
+                        <img src="images/hotelpiscine.jpg" alt="Piscine" id="piscine">
+                        <p>Malaisie - 340€</p>
+                    </div>
+                </div>
+
+                <div class="offers2">
+                    <div class="offer2">
+                        <img src="images/japon.jpg" alt="japon" id="japon">
+                        <p>Japon - 342€</p>
+                    </div>
+                    <div class="offer2">
+                        <img src="images/egypte.jpg" alt="Hotel" id="egypte">
+                        <p>Egypte - 681€</p>
+                    </div>
+                    <div class="offer2">
+                        <img src="images/desertmaroc.jpg" alt="Piscine" id="desert">
+                        <p>Maroc - 469€</p>
+                    </div>
+                </div>
+            </section>
+            <!-- fin section offre -->
+        </main>
+
+
+
+        <h2 class="contactez">Contactez-nous</h2 class="contactez">
+        <form method="post">
+
+            <div class="contact">
+                <label for="text">Nom/Prénom</label>
+                <br>
+                <input type="text" name="name">
+            </div class="contact">
+
+            <div class="contact">
+                <label for="texte">Email</label>
+                <br>
+                <input type="email" name="telephone">
+            </div class="contact">
+
+            <br><br>
+
+            <div class="contact">
+                <label for="texte">Objet</label>
+                <br>
+                <input type="texte" name="Objet">
+            </div class="contact">
+
+            <br><br>
+
+            <button id="Envoyer" type="submit">Envoyer</button>
+
+
+    </body>
+
+
+
+    <footer>
+        <p>© 2025 Supdevinci</p>
+        <p><Contactez-nous> </Contactez-nous> sup2voyage@hotmail.com</p>
+    </footer>
+
+
+
+
+    <script>
+        const Envoyer = document.getElementById('Envoyer');
+        Envoyer.addEventListener('click', function () {
+            alert('Votre message a bien été envoyé');
+        });
+
+
+        document.getElementById("turquie").addEventListener("click", function () {
+            alert("Turquie");
+        });
+
+
+
+    </script>
+
+</html>
+
+</body>
+
+</html>
